@@ -1,7 +1,7 @@
 <?php
 $lang = array();
 
-$lang['user_blocked'] = "Anda dalam keadaan terkunci oleh sistem.";
+$lang['user_blocked'] = "Anda saat ini terkunci oleh sistem.";
 $lang['user_verify_failed'] = "Kode Captcha tidak benar.";
 
 $lang['email_password_invalid'] = "Surel / kata sandi tidak valid.";
@@ -17,7 +17,7 @@ $lang['password_notvalid'] = "Kata sandi tidak valid.";
 
 $lang['newpassword_short'] = "Kata sandi baru terlalu pendek.";
 $lang['newpassword_long'] = "Kata sandi baru terlalu panjang.";
-$lang['newpassword_invalid'] = "Kata sandi baru harus mengandung setidaknya satu karakter huruf besar dan huruf kecil, dan setidaknya satu digit.";
+$lang['newpassword_invalid'] = "Kata sandi baru harus mengandung setidaknya satu karakter huruf besar dan huruf kecil, dan setidaknya satu digit angka.";
 $lang['newpassword_nomatch'] = "Kata sandi baru tidak cocok.";
 $lang['newpassword_match'] = "Kata sandi baru sama dengan kata sandi lama.";
 
@@ -28,7 +28,7 @@ $lang['email_incorrect'] = "Alamat surel salah.";
 $lang['email_banned'] = "Alamat surel ini tidak diperbolehkan";
 $lang['email_changed'] = "Alamat surel berhasil diubah.";
 
-$lang['newemail_match'] = "Alamat Email baru persis dengan email sebelumnya.";
+$lang['newemail_match'] = "Surel baru cocok dengan surel sebelumnya.";
 
 $lang['account_inactive'] = "Akun belum diaktifkan.";
 $lang['account_activated'] = "Akun sudah diaktifkan..";
