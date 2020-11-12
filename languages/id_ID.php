@@ -2,14 +2,14 @@
 $lang = array();
 
 $lang['user_blocked'] = "Anda dalam keadaan terkunci oleh sistem.";
-$lang['user_verify_failed'] = "Captcha tidak benar.";
+$lang['user_verify_failed'] = "Kode Captcha tidak benar.";
 
-$lang['email_password_invalid'] = "Alamat Email / password tidak tepat.";
-$lang['email_password_incorrect'] = "Alamat Email / password tidak benar.";
+$lang['email_password_invalid'] = "Surel / kata sandi tidak sah.";
+$lang['email_password_incorrect'] = "Surel / kata sandi tidak benar.";
 $lang['remember_me_invalid'] = "Ingat login tidak benar.";
 
-$lang['password_short'] = "Password terlalu pendek.";
-$lang['password_weak'] = "Password lemah.";
+$lang['password_short'] = "Kata sandi terlalu pendek.";
+$lang['password_weak'] = "Kata sandi terlalu lemah.";
 $lang['password_nomatch'] = "Password tidak sama.";
 $lang['password_changed'] = "Sukses merubah Password.";
 $lang['password_incorrect'] = "Password saat ini tidak tepat.";
