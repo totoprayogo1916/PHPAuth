@@ -4,29 +4,29 @@ $lang = array();
 $lang['user_blocked'] = "Anda dalam keadaan terkunci oleh sistem.";
 $lang['user_verify_failed'] = "Kode Captcha tidak benar.";
 
-$lang['email_password_invalid'] = "Surel / kata sandi tidak sah.";
-$lang['email_password_incorrect'] = "Surel / kata sandi tidak benar.";
-$lang['remember_me_invalid'] = "Ingat login tidak benar.";
+$lang['email_password_invalid'] = "Surel / kata sandi tidak valid.";
+$lang['email_password_incorrect'] = "Surel / kata sandi salah.";
+$lang['remember_me_invalid'] = "Ingatkan saya tidak valid.";
 
 $lang['password_short'] = "Kata sandi terlalu pendek.";
 $lang['password_weak'] = "Kata sandi terlalu lemah.";
-$lang['password_nomatch'] = "Password tidak sama.";
-$lang['password_changed'] = "Sukses merubah Password.";
-$lang['password_incorrect'] = "Password saat ini tidak tepat.";
-$lang['password_notvalid'] = "Password tidak tepat.";
+$lang['password_nomatch'] = "Kata sandi tidak cocok.";
+$lang['password_changed'] = "Kata sandi berhasil diubah.";
+$lang['password_incorrect'] = "Kata sandi saat ini salah.";
+$lang['password_notvalid'] = "Kata sandi tidak valid.";
 
-$lang['newpassword_short'] = "Pasword baru terlalu pendek.";
-$lang['newpassword_long'] = "Password baru terlalu panjang.";
-$lang['newpassword_invalid'] = "Password baru harus memiliki minimal satu hurup besar dan hurup kecil serta, dan minimal angka minimal satu digit.";
-$lang['newpassword_nomatch'] = "Password baru tidak sama.";
-$lang['newpassword_match'] = "Password sama dengan password yang lama.";
+$lang['newpassword_short'] = "Kata sandi baru terlalu pendek.";
+$lang['newpassword_long'] = "Kata sandi baru terlalu panjang.";
+$lang['newpassword_invalid'] = "Kata sandi baru harus mengandung setidaknya satu karakter huruf besar dan huruf kecil, dan setidaknya satu digit.";
+$lang['newpassword_nomatch'] = "Kata sandi baru tidak cocok.";
+$lang['newpassword_match'] = "Kata sandi baru sama dengan kata sandi lama.";
 
-$lang['email_short'] = "Alamat Email terlalu pendek.";
-$lang['email_long'] = "Alamat Email terlalu panjang.";
-$lang['email_invalid'] = "Alamat Email tidak tepat.";
-$lang['email_incorrect'] = "Alamat Email tidak benar.";
-$lang['email_banned'] = "Alamat Email ini tidak diperkenankan.";
-$lang['email_changed'] = "Alamat Email sukses dirubah.";
+$lang['email_short'] = "Alamat surel terlalu pendek.";
+$lang['email_long'] = "Alamat surel terlalu panjang.";
+$lang['email_invalid'] = "Alamat surel tidak valid.";
+$lang['email_incorrect'] = "Alamat surel salah.";
+$lang['email_banned'] = "Alamat surel ini tidak diperbolehkan";
+$lang['email_changed'] = "Alamat surel berhasil diubah.";
 
 $lang['newemail_match'] = "Alamat Email baru persis dengan email sebelumnya.";
 
