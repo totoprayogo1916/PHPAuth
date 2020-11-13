@@ -17,7 +17,7 @@ $lang['password_notvalid'] = "Kata sandi tidak valid.";
 
 $lang['newpassword_short'] = "Kata sandi baru terlalu pendek.";
 $lang['newpassword_long'] = "Kata sandi baru terlalu panjang.";
-$lang['newpassword_invalid'] = "Kata sandi baru harus mengandung setidaknya satu karakter huruf besar dan huruf kecil, dan setidaknya satu digit angka.";
+$lang['newpassword_invalid'] = "Kata sandi baru harus mengandung setidaknya satu karakter huruf besar dan huruf kecil, dan setidaknya satu angka.";
 $lang['newpassword_nomatch'] = "Kata sandi baru tidak cocok.";
 $lang['newpassword_match'] = "Kata sandi baru sama dengan kata sandi lama.";
 
@@ -44,12 +44,12 @@ $lang['email_taken'] = "Alamat surel sudah digunakan.";
 
 $lang['resetkey_invalid'] = "Kunci reset tidak valid.";
 $lang['resetkey_incorrect'] = "Kunci reset salah.";
-$lang['resetkey_expired'] = "Reset kunci telah kedaluwarsa.";
+$lang['resetkey_expired'] = "Kunci reset telah kedaluwarsa.";
 $lang['password_reset'] = "Berhasil mengatur ulang kata sandi.";
 
-$lang['activationkey_invalid'] = "Kunci Aktivasi tidak tepat.";
-$lang['activationkey_incorrect'] = "Kunci Aktivasi tidak benar.";
-$lang['activationkey_expired'] = "Kunci Aktivasi telah kadaluarsa.";
+$lang['activationkey_invalid'] = "Kunci aktivasi tidak valid.";
+$lang['activationkey_incorrect'] = "Kunci aktivasi salah.";
+$lang['activationkey_expired'] = "Kunci aktivasi telah kedaluwarsa.";
 
 $lang['reset_requested'] = "Reset Password telah dikirim ke alamat email";
 $lang['reset_requested_emailmessage_suppressed'] = "Permintaan reset Password telah dibuat.";
