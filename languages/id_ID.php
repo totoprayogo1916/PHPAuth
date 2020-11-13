@@ -33,19 +33,19 @@ $lang['newemail_match'] = "Surel baru cocok dengan surel sebelumnya.";
 $lang['account_inactive'] = "Akun belum diaktifkan.";
 $lang['account_activated'] = "Akun sudah diaktifkan..";
 
-$lang['logged_in'] = "Anda sekarang telah login.";
-$lang['logged_out'] = "Anda sekarang telah logout";
+$lang['logged_in'] = "Anda sekarang sudah masuk.";
+$lang['logged_out'] = "Anda sekarang sudah keluar.";
 
-$lang['system_error'] = "Kesalahan pada sistem. Silahkan coba kembali.";
+$lang['system_error'] = "Telah terjadi kesalahan sistem. Silakan coba lagi.";
 
-$lang['register_success'] = "Akun telah dibuat email aktivasi telah dikirim kepada alamat email.";
-$lang['register_success_emailmessage_suppressed'] = "Akun dibuat.";
-$lang['email_taken'] = "Alamat Email ini telah digunakan";
+$lang['register_success'] = "Akun telah dibuat. Surel aktivasi dikirim ke alamat surel.";
+$lang['register_success_emailmessage_suppressed'] = "Akun telah dibuat.";
+$lang['email_taken'] = "Alamat surel sudah digunakan.";
 
-$lang['resetkey_invalid'] = "Kunci reset tidak tepat.";
-$lang['resetkey_incorrect'] = "Kunci Reset tidak benar.";
-$lang['resetkey_expired'] = "Kunci Reset telah kadaluarsa.";
-$lang['password_reset'] = "Password sukses direset.";
+$lang['resetkey_invalid'] = "Kunci reset tidak valid.";
+$lang['resetkey_incorrect'] = "Kunci reset salah.";
+$lang['resetkey_expired'] = "Reset kunci telah kedaluwarsa.";
+$lang['password_reset'] = "Berhasil mengatur ulang kata sandi.";
 
 $lang['activationkey_invalid'] = "Kunci Aktivasi tidak tepat.";
 $lang['activationkey_incorrect'] = "Kunci Aktivasi tidak benar.";
