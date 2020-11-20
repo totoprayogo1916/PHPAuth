@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPAuth;
+namespace PHPAuth; // test
 
 use PDO;
 use PDOException;
