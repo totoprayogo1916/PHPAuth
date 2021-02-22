@@ -181,7 +181,7 @@ class Auth
      * @param string $repeatpassword
      * @param array $params
      * @param string $captcha_response = ""
-     * @param bool $use_email_activation = false
+     * @param boolean $use_email_activation = false
      * @return array $return
      */
     //@todo: => registerUserAccount
@@ -325,7 +325,7 @@ class Auth
     /**
      * Creates a reset key for an email address and sends email
      * @param string $email
-     * @param bool $use_email_activation
+     * @param boolean $use_email_activation
      * @return array $return
      */
     public function requestReset(string $email, bool $use_email_activation = false) : array
@@ -764,7 +764,7 @@ class Auth
     /**
      * Gets public user data for a given UID and returns an array, password will be returned if param $withpassword is TRUE
      * @param int $uid
-     * @param bool|false $withpassword
+     * @param boolean|false $withpassword
      * @return array|null $data
      */
     public function getUser(int $uid, bool $withpassword = false) : ?array
@@ -1225,7 +1225,7 @@ class Auth
     /**
      * Recreates activation email for a given email and sends
      * @param string $email
-     * @param bool $use_email_activation
+     * @param boolean $use_email_activation
      *
      * @return array
      */
@@ -1560,7 +1560,7 @@ class Auth
      * Deletes all attempts for a given IP from database
      *
      * @param string $ip
-     * @param bool|false $all
+     * @param boolean|false $all
      * @return boolean
      */
     protected function deleteAttempts(string $ip, bool $all = false) : bool
@@ -1646,7 +1646,7 @@ class Auth
 
     /**
      * Gets user data for current user (from cookie/session_hash) and returns an array, password is not returned
-     * @param bool $updateSession = false
+     * @param boolean $updateSession = false
      * @return array $data
      * @return boolean false if no current user
      */
