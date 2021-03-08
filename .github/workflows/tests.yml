@@ -39,6 +39,11 @@ jobs:
                   php-version: ${{ matrix.php }}
                   extensions: pdo, sqlite, pdo_sqlite, mysql, mysqli, pdo_mysql
                   coverage: none
+
+            - name: Setup Database
+              run: |
+                mysql -u root -h 127.0.0.1 -p root -e 'USE DATABASE phpauthtest;'
+                mysql source database_defs/database_mysql.sql;
             
             - name: Install dependencies
               run: composer update --prefer-dist --no-interaction --no-suggest
