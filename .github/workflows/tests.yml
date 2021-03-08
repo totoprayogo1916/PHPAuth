@@ -40,8 +40,8 @@ jobs:
                   extensions: pdo, sqlite, pdo_sqlite, mysql, mysqli, pdo_mysql
                   coverage: none
             
-             - name: Install dependencies
-                run: composer update --prefer-dist --no-interaction --no-suggest
+            - name: Install dependencies
+              run: composer update --prefer-dist --no-interaction --no-suggest
 
             - name: Execute tests
               run: vendor/bin/phpunit
